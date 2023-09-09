@@ -1,0 +1,33 @@
+@import 'tailwind.css';
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: auto;
+}
+
+#header, #main, #footer {
+    padding: 20px;
+}
+
+#nav, #home, #blog {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#footer, #contact, #social {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h1, p {
+    margin-bottom: 10px;
+}
